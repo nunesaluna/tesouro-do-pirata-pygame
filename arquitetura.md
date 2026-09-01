@@ -2,14 +2,14 @@
 
 ```mermaid
 graph TD
-    game["game.py (Janela Principal)"]
-    menu["menu.py (Tela de Menu)"]
-    level["level.py (Loop do Jogo)"]
-    factory["entityFactory.py (Fabrica de Entidades)"]
-    player["player.py (Jogador)"]
-    enemy["enemy.py (Inimigo)"]
-    bg["background.py (Cenario)"]
-    entity["entity.py (Classe Mae Abstrata)"]
+    game[game.py]
+    menu[menu.py]
+    level[level.py]
+    factory[entityFactory.py]
+    player[player.py]
+    enemy[enemy.py]
+    bg[background.py]
+    entity[entity.py]
 
     game --> menu
     game --> level

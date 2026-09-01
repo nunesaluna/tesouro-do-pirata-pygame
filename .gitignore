@@ -1,0 +1,20 @@
+# Ambiente Virtual do Python
+.venv/
+venv/
+ENV/
+
+# Arquivos gerados pelo Pyinstaller (Build / Executável)
+build/
+dist/
+*.spec
+*.exe
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db

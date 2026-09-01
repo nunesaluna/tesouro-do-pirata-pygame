@@ -2,16 +2,16 @@
 
 ```mermaid
 graph TD
-    game[game.py <br><i>Ponto de Partida & Janela Principal</i>] -->|Gerencia & Alterna| menu[menu.py <br><i>Tela de Menu & Comandos</i>]
-    game -->|Gerencia & Alterna| level[level.py <br><i>Tela da Fase & Loop de Jogo</i>]
-    
-    level -->|Solicita Criação| factory[entityFactory.py <br><i>Fábrica de Entidades</i>]
-    
-    factory -->|Cria instâncias de| player[player.py <br><i>Jogador</i>]
-    factory -->|Cria instâncias de| enemy[enemy.py <br><i>Inimigo</i>]
-    factory -->|Cria instâncias de| bg[background.py <br><i>Cenário</i>]
-    
-    player -->|Herda de| entity[entity.py <br><i>Classe Mãe Abstrata</i>]
+    game["game.py (Ponto de Partida e Janela Principal)"] -->|Gerencia e Alterna| menu["menu.py (Tela de Menu e Comandos)"]
+    game -->|Gerencia e Alterna| level["level.py (Tela da Fase e Loop de Jogo)"]
+
+    level -->|Solicita Criacao| factory["entityFactory.py (Fabrica de Entidades)"]
+
+    factory -->|Cria instancias de| player["player.py (Jogador)"]
+    factory -->|Cria instancias de| enemy["enemy.py (Inimigo)"]
+    factory -->|Cria instancias de| bg["background.py (Cenario)"]
+
+    player -->|Herda de| entity["entity.py (Classe Mae Abstrata)"]
     enemy -->|Herda de| entity
     bg -->|Herda de| entity
 

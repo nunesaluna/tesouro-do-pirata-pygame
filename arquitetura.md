@@ -20,3 +20,4 @@ graph TD
     style level fill:#2e4053,stroke:#fff,stroke-width:1px,color:#fff
     style factory fill:#7d6608,stroke:#fff,stroke-width:1px,color:#fff
     style entity fill:#117a65,stroke:#fff,stroke-width:1px,color:#fff
+```
